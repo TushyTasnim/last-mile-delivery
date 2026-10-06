@@ -260,6 +260,3 @@ Other results can drift slightly between runs, because three inputs are not fixe
 
 Interactive route maps: [Dhaka](outputs/routes_co2_dhaka.html) · [Sylhet](outputs/routes_co2_sylhet.html)
 
-## License
-
-MIT
