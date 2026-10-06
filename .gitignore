@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Virtual environment -- hundreds of MB of installed packages.
+# Never committed; requirements are in the README instead.
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Caches
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# NOTE on what IS committed, deliberately:
+#
+#   data/      -- scenario CSVs, distance matrices, results. Small (~50 KB)
+#                 and they are the evidence behind every number in the README.
+#                 A reader should be able to check your arithmetic without
+#                 re-running the whole pipeline or hitting the OSRM server.
+#
+#   outputs/   -- the Pareto plot and the interactive route maps. These are
+#                 the artefacts the project exists to produce.
+#
+#   notebooks/ -- WITH their outputs. GitHub renders executed notebooks
+#                 inline, so a visitor sees your results without running
+#                 anything. That is most of the value of using notebooks.
+# ---------------------------------------------------------------------------

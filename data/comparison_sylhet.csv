@@ -1,0 +1,2 @@
+city,distance_km_min_distance,co2_kg_min_distance,distance_km_min_co2,co2_kg_min_co2,extra_distance_pct,co2_saved_pct,heuristic_gap_pct
+sylhet,62.57,26.6191,62.57,26.6191,0.0,0.0,0.0

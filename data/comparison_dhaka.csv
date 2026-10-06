@@ -1,0 +1,2 @@
+city,distance_km_min_distance,co2_kg_min_distance,distance_km_min_co2,co2_kg_min_co2,extra_distance_pct,co2_saved_pct,heuristic_gap_pct
+dhaka,76.858,43.2189,76.956,43.0421,0.13,0.41,0.0

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_23dbf9d962c16bbc88451a8c81089b03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_23dbf9d962c16bbc88451a8c81089b03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_23dbf9d962c16bbc88451a8c81089b03 = L.map(
+                "map_23dbf9d962c16bbc88451a8c81089b03",
+                {
+                    center: [24.8823949, 91.8698411],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dd5a1d6cd48269cb298a851dcac8501a = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_dd5a1d6cd48269cb298a851dcac8501a.addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+            var marker_a8e8bb2b14d92c1f8b45248f5c76e6f0 = L.marker(
+                [24.8823949, 91.8698411],
+                {
+}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+            var icon_c400a4c90b05d15b8264c3a3c1b5075f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a0a0c330a1a32b64250a20167080858 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e97a5518a1dd2d864a5afaa57ca1754 = $(`<div id="html_8e97a5518a1dd2d864a5afaa57ca1754" style="width: 100.0%; height: 100.0%;">DEPOT</div>`)[0];
+                popup_3a0a0c330a1a32b64250a20167080858.setContent(html_8e97a5518a1dd2d864a5afaa57ca1754);
+            
+        
+
+        marker_a8e8bb2b14d92c1f8b45248f5c76e6f0.bindPopup(popup_3a0a0c330a1a32b64250a20167080858)
+        ;
+
+        
+    
+    
+                marker_a8e8bb2b14d92c1f8b45248f5c76e6f0.setIcon(icon_c400a4c90b05d15b8264c3a3c1b5075f);
+            
+    
+            var circle_marker_2e67834624a31d64a0c433b27f0ebfdd = L.circleMarker(
+                [24.8949181, 91.868182],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.95, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_c9b96c89fc6343f06b8578cede4be0af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_215f24be8a10da7ffb8e413887d4d03d = $(`<div id="html_215f24be8a10da7ffb8e413887d4d03d" style="width: 100.0%; height: 100.0%;">Zindabazar, Sylhet, Bangladesh<br>59 kg</div>`)[0];
+                popup_c9b96c89fc6343f06b8578cede4be0af.setContent(html_215f24be8a10da7ffb8e413887d4d03d);
+            
+        
+
+        circle_marker_2e67834624a31d64a0c433b27f0ebfdd.bindPopup(popup_c9b96c89fc6343f06b8578cede4be0af)
+        ;
+
+        
+    
+    
+            var circle_marker_a59855e4a3660d15dc61b696f012ecaf = L.circleMarker(
+                [24.8947351, 91.8633648],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_2fb6567bc00cc7d10dc49ba17f169558 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b56c5a3e8a5bcf00e8cbd9425872fe6 = $(`<div id="html_2b56c5a3e8a5bcf00e8cbd9425872fe6" style="width: 100.0%; height: 100.0%;">Lamabazar, Sylhet, Bangladesh<br>28 kg</div>`)[0];
+                popup_2fb6567bc00cc7d10dc49ba17f169558.setContent(html_2b56c5a3e8a5bcf00e8cbd9425872fe6);
+            
+        
+
+        circle_marker_a59855e4a3660d15dc61b696f012ecaf.bindPopup(popup_2fb6567bc00cc7d10dc49ba17f169558)
+        ;
+
+        
+    
+    
+            var circle_marker_036e25dd42e968be51ba4bc5bcacc075 = L.circleMarker(
+                [24.8991744, 91.8654694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_49c4d9539920cb7a07b17fd85a782518 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e89e2b5f62e20fcaaa5429d036e6a84 = $(`<div id="html_1e89e2b5f62e20fcaaa5429d036e6a84" style="width: 100.0%; height: 100.0%;">Chowhatta, Sylhet, Bangladesh<br>76 kg</div>`)[0];
+                popup_49c4d9539920cb7a07b17fd85a782518.setContent(html_1e89e2b5f62e20fcaaa5429d036e6a84);
+            
+        
+
+        circle_marker_036e25dd42e968be51ba4bc5bcacc075.bindPopup(popup_49c4d9539920cb7a07b17fd85a782518)
+        ;
+
+        
+    
+    
+            var circle_marker_915e347b8ec24ff9afd30b6c78ff8bb6 = L.circleMarker(
+                [24.9008174, 91.8635892],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_f17ddbd17942d6ebfd758d26f2f0a32e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9addcb250ef379155bdf67acb1b88498 = $(`<div id="html_9addcb250ef379155bdf67acb1b88498" style="width: 100.0%; height: 100.0%;">MAG Osmani Medical College, Sylhet, Bangladesh<br>84 kg</div>`)[0];
+                popup_f17ddbd17942d6ebfd758d26f2f0a32e.setContent(html_9addcb250ef379155bdf67acb1b88498);
+            
+        
+
+        circle_marker_915e347b8ec24ff9afd30b6c78ff8bb6.bindPopup(popup_f17ddbd17942d6ebfd758d26f2f0a32e)
+        ;
+
+        
+    
+    
+            var circle_marker_2af08ebb4e3c1e5b8e3ddcb29a94d920 = L.circleMarker(
+                [24.8947384, 91.8793575],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.85, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_2dfa94115fc32d2a16d12aec6ebcde85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef4683469b9092140f8daa57524b227d = $(`<div id="html_ef4683469b9092140f8daa57524b227d" style="width: 100.0%; height: 100.0%;">Mirabazar, Sylhet, Bangladesh<br>17 kg</div>`)[0];
+                popup_2dfa94115fc32d2a16d12aec6ebcde85.setContent(html_ef4683469b9092140f8daa57524b227d);
+            
+        
+
+        circle_marker_2af08ebb4e3c1e5b8e3ddcb29a94d920.bindPopup(popup_2dfa94115fc32d2a16d12aec6ebcde85)
+        ;
+
+        
+    
+    
+            var circle_marker_42279f550278bc82550a8a8d725129de = L.circleMarker(
+                [24.9049027, 91.8601144],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_ff26067f419e9ade7fb79bcdcb9e2732 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f651ecf6df4ae7b00aff5c6baf5688 = $(`<div id="html_16f651ecf6df4ae7b00aff5c6baf5688" style="width: 100.0%; height: 100.0%;">Subid Bazar, Sylhet, Bangladesh<br>24 kg</div>`)[0];
+                popup_ff26067f419e9ade7fb79bcdcb9e2732.setContent(html_16f651ecf6df4ae7b00aff5c6baf5688);
+            
+        
+
+        circle_marker_42279f550278bc82550a8a8d725129de.bindPopup(popup_ff26067f419e9ade7fb79bcdcb9e2732)
+        ;
+
+        
+    
+    
+            var circle_marker_bd80ba69b21b4736cc7ff0b4a70cf5e8 = L.circleMarker(
+                [24.9045266, 91.8696477],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_6ed369b19a3c45b7b5b9f71a31b3fd04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_312bf28a2182d555f4c4ef60970b469d = $(`<div id="html_312bf28a2182d555f4c4ef60970b469d" style="width: 100.0%; height: 100.0%;">Ambarkhana, Sylhet, Bangladesh<br>54 kg</div>`)[0];
+                popup_6ed369b19a3c45b7b5b9f71a31b3fd04.setContent(html_312bf28a2182d555f4c4ef60970b469d);
+            
+        
+
+        circle_marker_bd80ba69b21b4736cc7ff0b4a70cf5e8.bindPopup(popup_6ed369b19a3c45b7b5b9f71a31b3fd04)
+        ;
+
+        
+    
+    
+            var circle_marker_4659ac1f6963abff69c5cfed913d829c = L.circleMarker(
+                [24.9021885, 91.8663671],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.1, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_168dca2ace293e41c8486e1a5ca082b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4edf0e0c78091a21f23e1d8ea198714e = $(`<div id="html_4edf0e0c78091a21f23e1d8ea198714e" style="width: 100.0%; height: 100.0%;">Hazrat Shahjalal Mazar, Sylhet, Bangladesh<br>42 kg</div>`)[0];
+                popup_168dca2ace293e41c8486e1a5ca082b3.setContent(html_4edf0e0c78091a21f23e1d8ea198714e);
+            
+        
+
+        circle_marker_4659ac1f6963abff69c5cfed913d829c.bindPopup(popup_168dca2ace293e41c8486e1a5ca082b3)
+        ;
+
+        
+    
+    
+            var circle_marker_40a7654e6932988ad57bc87df3a671a9 = L.circleMarker(
+                [24.9059423, 91.8806187],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_bfdab6981ee901140f13bc7226c0089e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bc859216ff14c6347244b1e8b21c88a = $(`<div id="html_9bc859216ff14c6347244b1e8b21c88a" style="width: 100.0%; height: 100.0%;">Shahi Eidgah, Sylhet, Bangladesh<br>50 kg</div>`)[0];
+                popup_bfdab6981ee901140f13bc7226c0089e.setContent(html_9bc859216ff14c6347244b1e8b21c88a);
+            
+        
+
+        circle_marker_40a7654e6932988ad57bc87df3a671a9.bindPopup(popup_bfdab6981ee901140f13bc7226c0089e)
+        ;
+
+        
+    
+    
+            var circle_marker_70f09a807f5fabbdff9255359acdcd21 = L.circleMarker(
+                [24.9543638, 91.9492565],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.55, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_c07f35f0607f81ad77d4a4f2a2ef1717 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb5aa69de2eda21d84eaa6e9f2d2968 = $(`<div id="html_8bb5aa69de2eda21d84eaa6e9f2d2968" style="width: 100.0%; height: 100.0%;">Khadimnagar, Sylhet, Bangladesh<br>31 kg</div>`)[0];
+                popup_c07f35f0607f81ad77d4a4f2a2ef1717.setContent(html_8bb5aa69de2eda21d84eaa6e9f2d2968);
+            
+        
+
+        circle_marker_70f09a807f5fabbdff9255359acdcd21.bindPopup(popup_c07f35f0607f81ad77d4a4f2a2ef1717)
+        ;
+
+        
+    
+    
+            var circle_marker_f5fd3365388b44ddc302c89d59ef11d3 = L.circleMarker(
+                [24.9461823, 91.8710911],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.05, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_c9099f35c2312e6242e8bcd8d5a73b9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a314cf55a11dfadae5473100809a468 = $(`<div id="html_7a314cf55a11dfadae5473100809a468" style="width: 100.0%; height: 100.0%;">Sylhet Cadet College, Sylhet, Bangladesh<br>81 kg</div>`)[0];
+                popup_c9099f35c2312e6242e8bcd8d5a73b9a.setContent(html_7a314cf55a11dfadae5473100809a468);
+            
+        
+
+        circle_marker_f5fd3365388b44ddc302c89d59ef11d3.bindPopup(popup_c9099f35c2312e6242e8bcd8d5a73b9a)
+        ;
+
+        
+    
+    
+            var circle_marker_a8db2b369e56dcf205322bb24c9b79e4 = L.circleMarker(
+                [24.898693, 91.9122864],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.85, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_f78ba4490a2d6c8a58731baab4702718 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_446b132b21cf7b2c34922d6727dfcfd8 = $(`<div id="html_446b132b21cf7b2c34922d6727dfcfd8" style="width: 100.0%; height: 100.0%;">Majortila, Sylhet, Bangladesh<br>77 kg</div>`)[0];
+                popup_f78ba4490a2d6c8a58731baab4702718.setContent(html_446b132b21cf7b2c34922d6727dfcfd8);
+            
+        
+
+        circle_marker_a8db2b369e56dcf205322bb24c9b79e4.bindPopup(popup_f78ba4490a2d6c8a58731baab4702718)
+        ;
+
+        
+    
+    
+            var circle_marker_75980eee6c8a5a639925a902df699d7d = L.circleMarker(
+                [24.8961911, 91.8995308],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.6, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_65be1e53a622767a6a5561f6cc96ea6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c95f510dbeddf459ca193b149fc6512 = $(`<div id="html_4c95f510dbeddf459ca193b149fc6512" style="width: 100.0%; height: 100.0%;">Tilagor, Sylhet, Bangladesh<br>52 kg</div>`)[0];
+                popup_65be1e53a622767a6a5561f6cc96ea6a.setContent(html_4c95f510dbeddf459ca193b149fc6512);
+            
+        
+
+        circle_marker_75980eee6c8a5a639925a902df699d7d.bindPopup(popup_65be1e53a622767a6a5561f6cc96ea6a)
+        ;
+
+        
+    
+    
+            var circle_marker_077cfe793c6646e252d55eda36ce5f31 = L.circleMarker(
+                [24.8891942, 91.8888902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.65, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_f84866897445fbeeaa0e9bc054b49cba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7449c241320f65aca9f976aa62e106bf = $(`<div id="html_7449c241320f65aca9f976aa62e106bf" style="width: 100.0%; height: 100.0%;">Shahjalal Upashahar, Sylhet, Bangladesh<br>93 kg</div>`)[0];
+                popup_f84866897445fbeeaa0e9bc054b49cba.setContent(html_7449c241320f65aca9f976aa62e106bf);
+            
+        
+
+        circle_marker_077cfe793c6646e252d55eda36ce5f31.bindPopup(popup_f84866897445fbeeaa0e9bc054b49cba)
+        ;
+
+        
+    
+    
+            var circle_marker_2da4a1338d364cfa4f9ded645a3f10cd = L.circleMarker(
+                [24.9022313, 91.8796081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.25, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_6ce2c25d8aaa8d999d32b115a8456c50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83b9691db5c60e54030ce74e72730ce0 = $(`<div id="html_83b9691db5c60e54030ce74e72730ce0" style="width: 100.0%; height: 100.0%;">Kumarpara, Sylhet, Bangladesh<br>65 kg</div>`)[0];
+                popup_6ce2c25d8aaa8d999d32b115a8456c50.setContent(html_83b9691db5c60e54030ce74e72730ce0);
+            
+        
+
+        circle_marker_2da4a1338d364cfa4f9ded645a3f10cd.bindPopup(popup_6ce2c25d8aaa8d999d32b115a8456c50)
+        ;
+
+        
+    
+    
+            var circle_marker_ba9aa83971f0f5a272c29d79332bb821 = L.circleMarker(
+                [24.963849, 91.8612302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.55, "stroke": true, "weight": 3}
+            ).addTo(map_23dbf9d962c16bbc88451a8c81089b03);
+        
+    
+        var popup_b8a76130bb67ec8f3d6f1280edf9362f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41f6f47735f05b490db3916abed506f3 = $(`<div id="html_41f6f47735f05b490db3916abed506f3" style="width: 100.0%; height: 100.0%;">Osmani International Airport, Sylhet, Bangladesh<br>31 kg</div>`)[0];
+                popup_b8a76130bb67ec8f3d6f1280edf9362f.setContent(html_41f6f47735f05b490db3916abed506f3);
+            
+        
+
+        circle_marker_ba9aa83971f0f5a272c29d79332bb821.bindPopup(popup_b8a76130bb67ec8f3d6f1280edf9362f)
+        ;
+
+        
+    
+</script>
+</html>

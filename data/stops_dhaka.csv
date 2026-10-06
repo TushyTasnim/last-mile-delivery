@@ -1,0 +1,22 @@
+index,address,lat,lon,demand_kg,is_depot,elevation_m
+0,"Tejgaon Industrial Area, Dhaka, Bangladesh",23.7648783,90.405798,0.0,True,10.0
+1,"Gulshan 1, Dhaka, Bangladesh",23.780553,90.4169,59.0,False,17.0
+2,"Gulshan 2, Dhaka, Bangladesh",23.7947191,90.4136986,28.0,False,24.0
+3,"Banani, Dhaka, Bangladesh",23.790321,90.4076959,76.0,False,17.0
+4,"Mohakhali, Dhaka, Bangladesh",23.7799893,90.4083242,84.0,False,15.0
+5,"Dhanmondi 27, Dhaka, Bangladesh",23.754089,90.3713507,17.0,False,14.0
+6,"Lalmatia, Dhaka, Bangladesh",23.7567008,90.3691554,24.0,False,20.0
+7,"Mohammadpur, Dhaka, Bangladesh",23.7593888,90.3663251,54.0,False,15.0
+8,"Farmgate, Dhaka, Bangladesh",23.7590394,90.3871113,42.0,False,18.0
+9,"Kawran Bazar, Dhaka, Bangladesh",23.7514308,90.3948605,50.0,False,16.0
+10,"Shahbagh, Dhaka, Bangladesh",23.739465,90.3959846,31.0,False,18.0
+11,"New Market, Dhaka, Bangladesh",23.733024,90.3846835,81.0,False,13.0
+12,"Azimpur, Dhaka, Bangladesh",23.7252946,90.3834641,77.0,False,15.0
+13,"Motijheel, Dhaka, Bangladesh",23.7272598,90.4211957,52.0,False,22.0
+14,"Paltan, Dhaka, Bangladesh",23.7317561,90.4114187,93.0,False,19.0
+15,"Malibagh, Dhaka, Bangladesh",23.7470671,90.4137718,65.0,False,17.0
+16,"Rampura, Dhaka, Bangladesh",23.7683221,90.4219638,31.0,False,8.0
+17,"Badda, Dhaka, Bangladesh",23.7765425,90.4463012,61.0,False,5.0
+18,"Bashundhara Residential Area, Dhaka, Bangladesh",23.8189265,90.4368229,30.0,False,8.0
+19,"Mirpur 10, Dhaka, Bangladesh",23.8083649,90.3682614,81.0,False,13.0
+20,"Uttara Sector 7, Dhaka, Bangladesh",23.8747993,90.396733,49.0,False,10.0

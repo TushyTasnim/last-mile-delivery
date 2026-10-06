@@ -1,0 +1,18 @@
+index,address,lat,lon,demand_kg,is_depot,elevation_m
+0,"Kadamtali, Sylhet, Bangladesh",24.8823949,91.8698411,0.0,True,13.0
+1,"Zindabazar, Sylhet, Bangladesh",24.8949181,91.868182,59.0,False,21.0
+2,"Lamabazar, Sylhet, Bangladesh",24.8947351,91.8633648,28.0,False,20.0
+3,"Chowhatta, Sylhet, Bangladesh",24.8991744,91.8654694,76.0,False,24.0
+4,"MAG Osmani Medical College, Sylhet, Bangladesh",24.9008174,91.8635892,84.0,False,23.0
+5,"Mirabazar, Sylhet, Bangladesh",24.8947384,91.8793575,17.0,False,18.0
+6,"Subid Bazar, Sylhet, Bangladesh",24.9049027,91.8601144,24.0,False,21.0
+7,"Ambarkhana, Sylhet, Bangladesh",24.9045266,91.8696477,54.0,False,29.0
+8,"Hazrat Shahjalal Mazar, Sylhet, Bangladesh",24.9021885,91.8663671,42.0,False,25.0
+9,"Shahi Eidgah, Sylhet, Bangladesh",24.9059423,91.8806187,50.0,False,29.0
+10,"Khadimnagar, Sylhet, Bangladesh",24.9543638,91.9492565,31.0,False,57.0
+11,"Sylhet Cadet College, Sylhet, Bangladesh",24.9461823,91.8710911,81.0,False,26.0
+12,"Majortila, Sylhet, Bangladesh",24.898693,91.9122864,77.0,False,24.0
+13,"Tilagor, Sylhet, Bangladesh",24.8961911,91.8995308,52.0,False,19.0
+14,"Shahjalal Upashahar, Sylhet, Bangladesh",24.8891942,91.8888902,93.0,False,16.0
+15,"Kumarpara, Sylhet, Bangladesh",24.9022313,91.8796081,65.0,False,31.0
+16,"Osmani International Airport, Sylhet, Bangladesh",24.963849,91.8612302,31.0,False,12.0

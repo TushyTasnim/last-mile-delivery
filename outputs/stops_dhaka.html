@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1fec764f521e00871dd01e55fc0c4944 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1fec764f521e00871dd01e55fc0c4944" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1fec764f521e00871dd01e55fc0c4944 = L.map(
+                "map_1fec764f521e00871dd01e55fc0c4944",
+                {
+                    center: [23.7648783, 90.405798],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_81cd9aae2d684139dffd93e0e0b752ea = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_81cd9aae2d684139dffd93e0e0b752ea.addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+            var marker_6766a7c5f7233cd29b83eaba94fc59f7 = L.marker(
+                [23.7648783, 90.405798],
+                {
+}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+            var icon_295ab1b1f1fbfbd592a705102774fd9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cb9ae9ce4a2cb811e441a351e0d8617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53fca5ba3b2208618bf8898a38fb4b3b = $(`<div id="html_53fca5ba3b2208618bf8898a38fb4b3b" style="width: 100.0%; height: 100.0%;">DEPOT</div>`)[0];
+                popup_8cb9ae9ce4a2cb811e441a351e0d8617.setContent(html_53fca5ba3b2208618bf8898a38fb4b3b);
+            
+        
+
+        marker_6766a7c5f7233cd29b83eaba94fc59f7.bindPopup(popup_8cb9ae9ce4a2cb811e441a351e0d8617)
+        ;
+
+        
+    
+    
+                marker_6766a7c5f7233cd29b83eaba94fc59f7.setIcon(icon_295ab1b1f1fbfbd592a705102774fd9e);
+            
+    
+            var circle_marker_a46405462abc27b60ea495e923f73cb5 = L.circleMarker(
+                [23.780553, 90.4169],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.95, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_f024b9dc1aa50ddf0903049106cf87d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b849756af2b88ca81b1bb3d4024d5e44 = $(`<div id="html_b849756af2b88ca81b1bb3d4024d5e44" style="width: 100.0%; height: 100.0%;">Gulshan 1, Dhaka, Bangladesh<br>59 kg</div>`)[0];
+                popup_f024b9dc1aa50ddf0903049106cf87d3.setContent(html_b849756af2b88ca81b1bb3d4024d5e44);
+            
+        
+
+        circle_marker_a46405462abc27b60ea495e923f73cb5.bindPopup(popup_f024b9dc1aa50ddf0903049106cf87d3)
+        ;
+
+        
+    
+    
+            var circle_marker_9f5c0ada678d80ca70e5703282c58e93 = L.circleMarker(
+                [23.7947191, 90.4136986],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_e05dfde94fbeb510afc78b690d9dc4aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84f3f15a8a1792b6ef718c09d9213c33 = $(`<div id="html_84f3f15a8a1792b6ef718c09d9213c33" style="width: 100.0%; height: 100.0%;">Gulshan 2, Dhaka, Bangladesh<br>28 kg</div>`)[0];
+                popup_e05dfde94fbeb510afc78b690d9dc4aa.setContent(html_84f3f15a8a1792b6ef718c09d9213c33);
+            
+        
+
+        circle_marker_9f5c0ada678d80ca70e5703282c58e93.bindPopup(popup_e05dfde94fbeb510afc78b690d9dc4aa)
+        ;
+
+        
+    
+    
+            var circle_marker_b1321f464849fd8c656d4f0fe00a3c86 = L.circleMarker(
+                [23.790321, 90.4076959],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_80caafc5e896ae9fc2ef9f67a2991335 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b15bda0359a243709f45f4b9938c9d0 = $(`<div id="html_9b15bda0359a243709f45f4b9938c9d0" style="width: 100.0%; height: 100.0%;">Banani, Dhaka, Bangladesh<br>76 kg</div>`)[0];
+                popup_80caafc5e896ae9fc2ef9f67a2991335.setContent(html_9b15bda0359a243709f45f4b9938c9d0);
+            
+        
+
+        circle_marker_b1321f464849fd8c656d4f0fe00a3c86.bindPopup(popup_80caafc5e896ae9fc2ef9f67a2991335)
+        ;
+
+        
+    
+    
+            var circle_marker_62dc32ae9e8e8efc3ee8f27eef386f71 = L.circleMarker(
+                [23.7799893, 90.4083242],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_9408b3502ae389b33a9076686482f4e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_215fd96d03a740cc0e5d191cb05cc992 = $(`<div id="html_215fd96d03a740cc0e5d191cb05cc992" style="width: 100.0%; height: 100.0%;">Mohakhali, Dhaka, Bangladesh<br>84 kg</div>`)[0];
+                popup_9408b3502ae389b33a9076686482f4e4.setContent(html_215fd96d03a740cc0e5d191cb05cc992);
+            
+        
+
+        circle_marker_62dc32ae9e8e8efc3ee8f27eef386f71.bindPopup(popup_9408b3502ae389b33a9076686482f4e4)
+        ;
+
+        
+    
+    
+            var circle_marker_160d357e7cfa54d190586115a9f7605b = L.circleMarker(
+                [23.754089, 90.3713507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.85, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_474497f1bfac28fe6788fa3d669937a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_412ca5b54f624c666e6e3ab2bddd8e30 = $(`<div id="html_412ca5b54f624c666e6e3ab2bddd8e30" style="width: 100.0%; height: 100.0%;">Dhanmondi 27, Dhaka, Bangladesh<br>17 kg</div>`)[0];
+                popup_474497f1bfac28fe6788fa3d669937a2.setContent(html_412ca5b54f624c666e6e3ab2bddd8e30);
+            
+        
+
+        circle_marker_160d357e7cfa54d190586115a9f7605b.bindPopup(popup_474497f1bfac28fe6788fa3d669937a2)
+        ;
+
+        
+    
+    
+            var circle_marker_d4666460164620b515cb8b3ca7d327df = L.circleMarker(
+                [23.7567008, 90.3691554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_0274e3594ec3b83a950766ade7b098fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16352e7d05168855101f739fa600fe38 = $(`<div id="html_16352e7d05168855101f739fa600fe38" style="width: 100.0%; height: 100.0%;">Lalmatia, Dhaka, Bangladesh<br>24 kg</div>`)[0];
+                popup_0274e3594ec3b83a950766ade7b098fd.setContent(html_16352e7d05168855101f739fa600fe38);
+            
+        
+
+        circle_marker_d4666460164620b515cb8b3ca7d327df.bindPopup(popup_0274e3594ec3b83a950766ade7b098fd)
+        ;
+
+        
+    
+    
+            var circle_marker_0ab354a3f95c98319ba2617ab8ed1748 = L.circleMarker(
+                [23.7593888, 90.3663251],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_dbb9a3b13a5b5624bae3f801d83f6d88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a427c7c0787bcc4facae3904e4af103 = $(`<div id="html_2a427c7c0787bcc4facae3904e4af103" style="width: 100.0%; height: 100.0%;">Mohammadpur, Dhaka, Bangladesh<br>54 kg</div>`)[0];
+                popup_dbb9a3b13a5b5624bae3f801d83f6d88.setContent(html_2a427c7c0787bcc4facae3904e4af103);
+            
+        
+
+        circle_marker_0ab354a3f95c98319ba2617ab8ed1748.bindPopup(popup_dbb9a3b13a5b5624bae3f801d83f6d88)
+        ;
+
+        
+    
+    
+            var circle_marker_d1af2331226fbc6c201e7268cb7e9ca1 = L.circleMarker(
+                [23.7590394, 90.3871113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.1, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_6ac3593f2b1db7d171bb66403a83884c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b1ef74469e03ae5f00a6bd58f581d8b = $(`<div id="html_0b1ef74469e03ae5f00a6bd58f581d8b" style="width: 100.0%; height: 100.0%;">Farmgate, Dhaka, Bangladesh<br>42 kg</div>`)[0];
+                popup_6ac3593f2b1db7d171bb66403a83884c.setContent(html_0b1ef74469e03ae5f00a6bd58f581d8b);
+            
+        
+
+        circle_marker_d1af2331226fbc6c201e7268cb7e9ca1.bindPopup(popup_6ac3593f2b1db7d171bb66403a83884c)
+        ;
+
+        
+    
+    
+            var circle_marker_b48b16c114023eb3a5f2038ce3d5bc7a = L.circleMarker(
+                [23.7514308, 90.3948605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_3a294fddedb80b1623da7417580549b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59fa1b4e687514482e6290c4c6b82d8b = $(`<div id="html_59fa1b4e687514482e6290c4c6b82d8b" style="width: 100.0%; height: 100.0%;">Kawran Bazar, Dhaka, Bangladesh<br>50 kg</div>`)[0];
+                popup_3a294fddedb80b1623da7417580549b9.setContent(html_59fa1b4e687514482e6290c4c6b82d8b);
+            
+        
+
+        circle_marker_b48b16c114023eb3a5f2038ce3d5bc7a.bindPopup(popup_3a294fddedb80b1623da7417580549b9)
+        ;
+
+        
+    
+    
+            var circle_marker_ea2ece6b6b068f8dde23e171aa256100 = L.circleMarker(
+                [23.739465, 90.3959846],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.55, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_dcdba5aed336a088c098968cf423230f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91f9c8795ac610737db4bd7d842f39f9 = $(`<div id="html_91f9c8795ac610737db4bd7d842f39f9" style="width: 100.0%; height: 100.0%;">Shahbagh, Dhaka, Bangladesh<br>31 kg</div>`)[0];
+                popup_dcdba5aed336a088c098968cf423230f.setContent(html_91f9c8795ac610737db4bd7d842f39f9);
+            
+        
+
+        circle_marker_ea2ece6b6b068f8dde23e171aa256100.bindPopup(popup_dcdba5aed336a088c098968cf423230f)
+        ;
+
+        
+    
+    
+            var circle_marker_55a455136f151789b751f93852d3b220 = L.circleMarker(
+                [23.733024, 90.3846835],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.05, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_e2aa375192df5d2a1b93c749c7bdbd5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01af5ab62045bb71f15aa9b04c6cd917 = $(`<div id="html_01af5ab62045bb71f15aa9b04c6cd917" style="width: 100.0%; height: 100.0%;">New Market, Dhaka, Bangladesh<br>81 kg</div>`)[0];
+                popup_e2aa375192df5d2a1b93c749c7bdbd5c.setContent(html_01af5ab62045bb71f15aa9b04c6cd917);
+            
+        
+
+        circle_marker_55a455136f151789b751f93852d3b220.bindPopup(popup_e2aa375192df5d2a1b93c749c7bdbd5c)
+        ;
+
+        
+    
+    
+            var circle_marker_7e16f003d606739650766b83ca44eb4d = L.circleMarker(
+                [23.7252946, 90.3834641],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.85, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_599e4d2ddb568ecc5ed835e92d45d095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22580c810be7845c465cab6c8491808f = $(`<div id="html_22580c810be7845c465cab6c8491808f" style="width: 100.0%; height: 100.0%;">Azimpur, Dhaka, Bangladesh<br>77 kg</div>`)[0];
+                popup_599e4d2ddb568ecc5ed835e92d45d095.setContent(html_22580c810be7845c465cab6c8491808f);
+            
+        
+
+        circle_marker_7e16f003d606739650766b83ca44eb4d.bindPopup(popup_599e4d2ddb568ecc5ed835e92d45d095)
+        ;
+
+        
+    
+    
+            var circle_marker_fed5722842cd7fdf5cbe522aecb5ae5f = L.circleMarker(
+                [23.7272598, 90.4211957],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.6, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_711324a73cf407546079bb05551225cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3495931e43c3fc7adf92498c04660bb = $(`<div id="html_b3495931e43c3fc7adf92498c04660bb" style="width: 100.0%; height: 100.0%;">Motijheel, Dhaka, Bangladesh<br>52 kg</div>`)[0];
+                popup_711324a73cf407546079bb05551225cf.setContent(html_b3495931e43c3fc7adf92498c04660bb);
+            
+        
+
+        circle_marker_fed5722842cd7fdf5cbe522aecb5ae5f.bindPopup(popup_711324a73cf407546079bb05551225cf)
+        ;
+
+        
+    
+    
+            var circle_marker_b699c608a6928e776111b6b6669517dc = L.circleMarker(
+                [23.7317561, 90.4114187],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.65, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_ae9eadd31cb0b0531c318d99e738b1ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd588650b1f8cea0151fd8cc2ebb2fb6 = $(`<div id="html_fd588650b1f8cea0151fd8cc2ebb2fb6" style="width: 100.0%; height: 100.0%;">Paltan, Dhaka, Bangladesh<br>93 kg</div>`)[0];
+                popup_ae9eadd31cb0b0531c318d99e738b1ae.setContent(html_fd588650b1f8cea0151fd8cc2ebb2fb6);
+            
+        
+
+        circle_marker_b699c608a6928e776111b6b6669517dc.bindPopup(popup_ae9eadd31cb0b0531c318d99e738b1ae)
+        ;
+
+        
+    
+    
+            var circle_marker_d4b4763e85a2c9cd8c5e82b01a156517 = L.circleMarker(
+                [23.7470671, 90.4137718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.25, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_09f1440378743bd6a8e24992e7e85800 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d04afc356bc4c4d07137f84c5ed42b7 = $(`<div id="html_2d04afc356bc4c4d07137f84c5ed42b7" style="width: 100.0%; height: 100.0%;">Malibagh, Dhaka, Bangladesh<br>65 kg</div>`)[0];
+                popup_09f1440378743bd6a8e24992e7e85800.setContent(html_2d04afc356bc4c4d07137f84c5ed42b7);
+            
+        
+
+        circle_marker_d4b4763e85a2c9cd8c5e82b01a156517.bindPopup(popup_09f1440378743bd6a8e24992e7e85800)
+        ;
+
+        
+    
+    
+            var circle_marker_d134733e3482d0272f6e3eac06b2a123 = L.circleMarker(
+                [23.7683221, 90.4219638],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.55, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_07d5cb20e217b4e0286c0e70f7131403 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba6eb18997ec4387c09c222771bc4654 = $(`<div id="html_ba6eb18997ec4387c09c222771bc4654" style="width: 100.0%; height: 100.0%;">Rampura, Dhaka, Bangladesh<br>31 kg</div>`)[0];
+                popup_07d5cb20e217b4e0286c0e70f7131403.setContent(html_ba6eb18997ec4387c09c222771bc4654);
+            
+        
+
+        circle_marker_d134733e3482d0272f6e3eac06b2a123.bindPopup(popup_07d5cb20e217b4e0286c0e70f7131403)
+        ;
+
+        
+    
+    
+            var circle_marker_717ab4eccc0fa298e7d38b2e784a365c = L.circleMarker(
+                [23.7765425, 90.4463012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.05, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_1c610f804b5f9ce4bb09c808c6a12c37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f55ba9f7869ddec242fa409f36214632 = $(`<div id="html_f55ba9f7869ddec242fa409f36214632" style="width: 100.0%; height: 100.0%;">Badda, Dhaka, Bangladesh<br>61 kg</div>`)[0];
+                popup_1c610f804b5f9ce4bb09c808c6a12c37.setContent(html_f55ba9f7869ddec242fa409f36214632);
+            
+        
+
+        circle_marker_717ab4eccc0fa298e7d38b2e784a365c.bindPopup(popup_1c610f804b5f9ce4bb09c808c6a12c37)
+        ;
+
+        
+    
+    
+            var circle_marker_5bc369be8bf282a918e7c2635f1b2310 = L.circleMarker(
+                [23.8189265, 90.4368229],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_aaad0f6ae6e1a9ef4f68b097c890773c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc462b695993a51406dc85067c351b5f = $(`<div id="html_bc462b695993a51406dc85067c351b5f" style="width: 100.0%; height: 100.0%;">Bashundhara Residential Area, Dhaka, Bangladesh<br>30 kg</div>`)[0];
+                popup_aaad0f6ae6e1a9ef4f68b097c890773c.setContent(html_bc462b695993a51406dc85067c351b5f);
+            
+        
+
+        circle_marker_5bc369be8bf282a918e7c2635f1b2310.bindPopup(popup_aaad0f6ae6e1a9ef4f68b097c890773c)
+        ;
+
+        
+    
+    
+            var circle_marker_6c201bed07e82fae8ea22bb9ee2c24ae = L.circleMarker(
+                [23.8083649, 90.3682614],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.05, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_19621301142054efba7b73d692b22a27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_648a67746fcc3037b11785fcc26ba51b = $(`<div id="html_648a67746fcc3037b11785fcc26ba51b" style="width: 100.0%; height: 100.0%;">Mirpur 10, Dhaka, Bangladesh<br>81 kg</div>`)[0];
+                popup_19621301142054efba7b73d692b22a27.setContent(html_648a67746fcc3037b11785fcc26ba51b);
+            
+        
+
+        circle_marker_6c201bed07e82fae8ea22bb9ee2c24ae.bindPopup(popup_19621301142054efba7b73d692b22a27)
+        ;
+
+        
+    
+    
+            var circle_marker_687bb5a0b3ef5194a55a5ee28af88128 = L.circleMarker(
+                [23.8747993, 90.396733],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.45, "stroke": true, "weight": 3}
+            ).addTo(map_1fec764f521e00871dd01e55fc0c4944);
+        
+    
+        var popup_59b4823c5cff81ed1dc35041de6a9413 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0de9a3d50007ee958811044e5174d554 = $(`<div id="html_0de9a3d50007ee958811044e5174d554" style="width: 100.0%; height: 100.0%;">Uttara Sector 7, Dhaka, Bangladesh<br>49 kg</div>`)[0];
+                popup_59b4823c5cff81ed1dc35041de6a9413.setContent(html_0de9a3d50007ee958811044e5174d554);
+            
+        
+
+        circle_marker_687bb5a0b3ef5194a55a5ee28af88128.bindPopup(popup_59b4823c5cff81ed1dc35041de6a9413)
+        ;
+
+        
+    
+</script>
+</html>
